@@ -12,7 +12,7 @@ driver.get("https://www.google.co.kr/imghp?hl=ko&tab=wi&ogbl")
 # 검색창 찾기
 elem = driver.find_element_by_name("q")
 # 검색어 자동입력
-elem.send_keys("조코딩")
+elem.send_keys("아메리칸 숏헤어")
 # 엔터키 적용
 elem.send_keys(Keys.RETURN)
 

@@ -14,7 +14,7 @@ screen_height = 480 # 세로 크기
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 # 화면 타이틀 설정
-pygame.display.set_caption("Making PangGame by JBin") # 게임 이름
+pygame.display.set_caption("Making Pygame by JBin") # 게임 이름
 
 # FPS
 clock = pygame.time.Clock()
