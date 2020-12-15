@@ -1,5 +1,14 @@
-lst = ["가","나","다"]
+kor = ["사과","바나나","오렌지"]
+eng = ["apple","banana","orange"]
 
-for lst_idx, lst_val in enumerate(lst):
-    print(lst_val)
+a = (list(zip(kor,eng)))
+
+print(a)
+
+mixed = [('사과', 'apple'), ('바나나', 'banana'), ('오렌지', 'orange')]
+
+a = (list(zip(*mixed)))
+
+print(a)
+
 
